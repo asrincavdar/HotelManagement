@@ -118,7 +118,7 @@
             button_login.Name = "button_login";
             button_login.Size = new Size(94, 29);
             button_login.TabIndex = 7;
-            button_login.Text = "Login";
+            button_login.Text = "Log In";
             button_login.UseVisualStyleBackColor = true;
             button_login.Click += button_login_Click;
             // 
@@ -137,6 +137,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = " VSHotel | Login";
             Load += Form1_Load;
             ResumeLayout(false);

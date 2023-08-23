@@ -39,6 +39,7 @@ namespace HotelManagement
                 String querry = "SELECT * FROM Login WHERE user_id = '" + text_id.Text + "' AND password = '" + text_pass.Text + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(querry, conn);
                 DataTable dt = new DataTable();
+
                 sda.Fill(dt);
 
                 if (dt.Rows.Count > 0)
