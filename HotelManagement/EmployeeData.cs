@@ -104,7 +104,7 @@ namespace HotelManagement
 
         private void EmployeeData_Load(object sender, EventArgs e)
         {
-
+            
         }
 
     }
