@@ -42,7 +42,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Bahnschrift SemiBold", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.LightSlateGray;
+            label1.ForeColor = Color.DarkSlateGray;
             label1.Location = new Point(231, 188);
             label1.Name = "label1";
             label1.Size = new Size(88, 28);
@@ -53,7 +53,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Bahnschrift SemiBold", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.LightSlateGray;
+            label2.ForeColor = Color.DarkSlateGray;
             label2.Location = new Point(231, 244);
             label2.Name = "label2";
             label2.Size = new Size(114, 28);
@@ -102,6 +102,7 @@
             // 
             // button_exit
             // 
+            button_exit.Cursor = Cursors.Hand;
             button_exit.Font = new Font("Bahnschrift SemiCondensed", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             button_exit.ForeColor = Color.Tomato;
             button_exit.Location = new Point(231, 291);
@@ -114,6 +115,7 @@
             // 
             // button_login
             // 
+            button_login.Cursor = Cursors.Hand;
             button_login.Font = new Font("Bahnschrift SemiCondensed", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             button_login.ForeColor = Color.DarkSlateGray;
             button_login.Location = new Point(418, 291);
